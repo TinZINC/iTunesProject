@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iTunes Project</title>
+    <link href="styles.css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Itunes Project</h1>
+    <h2>Please enter the name of your artist, and how many of their top songs you would like to be shown</h2>
+    <input type="text" id = "name">
+
+    <select id= "number">
+        <option value="10">Top 10</option>
+        <option value="25">Top 25</option>
+        <option value="50">Top 50</option>
+    </select>
+
+<button onclick="run()">Get Top Songs</button>
+
+    <div id="outPutTest"> </div>
+
+<table id="output" border="1"></table>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+* {
+    font-family: sans-serif;
+    padding: 10px;
+    background: orange;
+}
+
+
+
+#output {
+    display:none;
+}
+
+button {
+    background: lightblue;
+    color: black;
+}
